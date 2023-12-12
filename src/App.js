@@ -1,13 +1,11 @@
 import './App.css';
 import { ToDoWrapper } from './components/ToDoWrapper';
-import { ErrorBoundary } from './components/ErrorBoundary';
 import { Component } from 'react';
+import { ToDoForm } from './components/ToDoForm';
 
 function App() {
   return (
-    <ErrorBoundary>
-      <Component></Component>
-    </ErrorBoundary>
+    <ToDoForm></ToDoForm>
   );
 }
 
